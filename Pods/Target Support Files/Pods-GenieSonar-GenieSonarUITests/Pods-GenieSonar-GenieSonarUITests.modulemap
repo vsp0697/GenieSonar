@@ -1,0 +1,6 @@
+framework module Pods_GenieSonar_GenieSonarUITests {
+  umbrella header "Pods-GenieSonar-GenieSonarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

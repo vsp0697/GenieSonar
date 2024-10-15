@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E83D9D2CBED17A00197CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E83D9C2CBED17A00197CD4 /* AppDelegate.swift */; };
+		18E83D9F2CBED17A00197CD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E83D9E2CBED17A00197CD4 /* SceneDelegate.swift */; };
+		18E83DA12CBED17A00197CD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E83DA02CBED17A00197CD4 /* ViewController.swift */; };
+		18E83DA42CBED17A00197CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E83DA22CBED17A00197CD4 /* Main.storyboard */; };
+		18E83DA62CBED17C00197CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E83DA52CBED17C00197CD4 /* Assets.xcassets */; };
+		18E83DA92CBED17C00197CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E83DA72CBED17C00197CD4 /* LaunchScreen.storyboard */; };
+		18E83DB42CBED17C00197CD4 /* GenieSonarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E83DB32CBED17C00197CD4 /* GenieSonarTests.swift */; };
+		18E83DBE2CBED17C00197CD4 /* GenieSonarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E83DBD2CBED17C00197CD4 /* GenieSonarUITests.swift */; };
+		18E83DC02CBED17C00197CD4 /* GenieSonarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E83DBF2CBED17C00197CD4 /* GenieSonarUITestsLaunchTests.swift */; };
+		18FF4CBD2CBED28C000DEACA /* sonar-project.properties in Resources */ = {isa = PBXBuildFile; fileRef = 18FF4CBC2CBED28B000DEACA /* sonar-project.properties */; };
+		18FF4CBF2CBED2E4000DEACA /* run-sonar-swift.sh in Resources */ = {isa = PBXBuildFile; fileRef = 18FF4CBE2CBED2E4000DEACA /* run-sonar-swift.sh */; };
+		8D9C8E87CFD0B753DC24AB79 /* Pods_GenieSonar_GenieSonarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8CD488003EB38072B5E7FC /* Pods_GenieSonar_GenieSonarUITests.framework */; };
+		B818B07D6C7D7B3643FFD5EE /* Pods_GenieSonarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE4768DF75DE3CA38B26E90 /* Pods_GenieSonarTests.framework */; };
+		E8185FAAC69E4A1D90825226 /* Pods_GenieSonar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A813C9B4EA612C847A92C1 /* Pods_GenieSonar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E83DB02CBED17C00197CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E83D912CBED17A00197CD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E83D982CBED17A00197CD4;
+			remoteInfo = GenieSonar;
+		};
+		18E83DBA2CBED17C00197CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E83D912CBED17A00197CD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E83D982CBED17A00197CD4;
+			remoteInfo = GenieSonar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD080D6B232E44CD7C534D0 /* Pods-GenieSonar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenieSonar.release.xcconfig"; path = "Target Support Files/Pods-GenieSonar/Pods-GenieSonar.release.xcconfig"; sourceTree = "<group>"; };
+		18E83D992CBED17A00197CD4 /* GenieSonar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenieSonar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E83D9C2CBED17A00197CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E83D9E2CBED17A00197CD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18E83DA02CBED17A00197CD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E83DA32CBED17A00197CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E83DA52CBED17C00197CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E83DA82CBED17C00197CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E83DAA2CBED17C00197CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E83DAF2CBED17C00197CD4 /* GenieSonarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenieSonarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E83DB32CBED17C00197CD4 /* GenieSonarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieSonarTests.swift; sourceTree = "<group>"; };
+		18E83DB92CBED17C00197CD4 /* GenieSonarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenieSonarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E83DBD2CBED17C00197CD4 /* GenieSonarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieSonarUITests.swift; sourceTree = "<group>"; };
+		18E83DBF2CBED17C00197CD4 /* GenieSonarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieSonarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18FF4CBC2CBED28B000DEACA /* sonar-project.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; };
+		18FF4CBE2CBED2E4000DEACA /* run-sonar-swift.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "run-sonar-swift.sh"; sourceTree = "<group>"; };
+		1E5444C2B7AD448512B4DA64 /* Pods-GenieSonarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenieSonarTests.release.xcconfig"; path = "Target Support Files/Pods-GenieSonarTests/Pods-GenieSonarTests.release.xcconfig"; sourceTree = "<group>"; };
+		279422A1CB55B404AFFA4B0B /* Pods-GenieSonar-GenieSonarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenieSonar-GenieSonarUITests.debug.xcconfig"; path = "Target Support Files/Pods-GenieSonar-GenieSonarUITests/Pods-GenieSonar-GenieSonarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5167743984A91DB176DC6162 /* Pods-GenieSonarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenieSonarTests.debug.xcconfig"; path = "Target Support Files/Pods-GenieSonarTests/Pods-GenieSonarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F8CD488003EB38072B5E7FC /* Pods_GenieSonar_GenieSonarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenieSonar_GenieSonarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC8BC7888C88CD0B6DA8EF8 /* Pods-GenieSonar-GenieSonarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenieSonar-GenieSonarUITests.release.xcconfig"; path = "Target Support Files/Pods-GenieSonar-GenieSonarUITests/Pods-GenieSonar-GenieSonarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A83A2315C86998E93A118ED3 /* Pods-GenieSonar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenieSonar.debug.xcconfig"; path = "Target Support Files/Pods-GenieSonar/Pods-GenieSonar.debug.xcconfig"; sourceTree = "<group>"; };
+		AEE4768DF75DE3CA38B26E90 /* Pods_GenieSonarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenieSonarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A813C9B4EA612C847A92C1 /* Pods_GenieSonar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenieSonar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E83D962CBED17A00197CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8185FAAC69E4A1D90825226 /* Pods_GenieSonar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E83DAC2CBED17C00197CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B818B07D6C7D7B3643FFD5EE /* Pods_GenieSonarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E83DB62CBED17C00197CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9C8E87CFD0B753DC24AB79 /* Pods_GenieSonar_GenieSonarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E83D902CBED17A00197CD4 = {
+			isa = PBXGroup;
+			children = (
+				18FF4CBC2CBED28B000DEACA /* sonar-project.properties */,
+				18FF4CBE2CBED2E4000DEACA /* run-sonar-swift.sh */,
+				18E83D9B2CBED17A00197CD4 /* GenieSonar */,
+				18E83DB22CBED17C00197CD4 /* GenieSonarTests */,
+				18E83DBC2CBED17C00197CD4 /* GenieSonarUITests */,
+				18E83D9A2CBED17A00197CD4 /* Products */,
+				4B74353B0EEC49B8D7B62055 /* Pods */,
+				9D0C4D5B4900C345F334920D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18E83D9A2CBED17A00197CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E83D992CBED17A00197CD4 /* GenieSonar.app */,
+				18E83DAF2CBED17C00197CD4 /* GenieSonarTests.xctest */,
+				18E83DB92CBED17C00197CD4 /* GenieSonarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E83D9B2CBED17A00197CD4 /* GenieSonar */ = {
+			isa = PBXGroup;
+			children = (
+				18E83D9C2CBED17A00197CD4 /* AppDelegate.swift */,
+				18E83D9E2CBED17A00197CD4 /* SceneDelegate.swift */,
+				18E83DA02CBED17A00197CD4 /* ViewController.swift */,
+				18E83DA22CBED17A00197CD4 /* Main.storyboard */,
+				18E83DA52CBED17C00197CD4 /* Assets.xcassets */,
+				18E83DA72CBED17C00197CD4 /* LaunchScreen.storyboard */,
+				18E83DAA2CBED17C00197CD4 /* Info.plist */,
+			);
+			path = GenieSonar;
+			sourceTree = "<group>";
+		};
+		18E83DB22CBED17C00197CD4 /* GenieSonarTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E83DB32CBED17C00197CD4 /* GenieSonarTests.swift */,
+			);
+			path = GenieSonarTests;
+			sourceTree = "<group>";
+		};
+		18E83DBC2CBED17C00197CD4 /* GenieSonarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E83DBD2CBED17C00197CD4 /* GenieSonarUITests.swift */,
+				18E83DBF2CBED17C00197CD4 /* GenieSonarUITestsLaunchTests.swift */,
+			);
+			path = GenieSonarUITests;
+			sourceTree = "<group>";
+		};
+		4B74353B0EEC49B8D7B62055 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A83A2315C86998E93A118ED3 /* Pods-GenieSonar.debug.xcconfig */,
+				0CD080D6B232E44CD7C534D0 /* Pods-GenieSonar.release.xcconfig */,
+				279422A1CB55B404AFFA4B0B /* Pods-GenieSonar-GenieSonarUITests.debug.xcconfig */,
+				9CC8BC7888C88CD0B6DA8EF8 /* Pods-GenieSonar-GenieSonarUITests.release.xcconfig */,
+				5167743984A91DB176DC6162 /* Pods-GenieSonarTests.debug.xcconfig */,
+				1E5444C2B7AD448512B4DA64 /* Pods-GenieSonarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D0C4D5B4900C345F334920D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A813C9B4EA612C847A92C1 /* Pods_GenieSonar.framework */,
+				5F8CD488003EB38072B5E7FC /* Pods_GenieSonar_GenieSonarUITests.framework */,
+				AEE4768DF75DE3CA38B26E90 /* Pods_GenieSonarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E83D982CBED17A00197CD4 /* GenieSonar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E83DC32CBED17C00197CD4 /* Build configuration list for PBXNativeTarget "GenieSonar" */;
+			buildPhases = (
+				6D2FF4A4345FD687CBDD4BC8 /* [CP] Check Pods Manifest.lock */,
+				18E83D952CBED17A00197CD4 /* Sources */,
+				18E83D962CBED17A00197CD4 /* Frameworks */,
+				18E83D972CBED17A00197CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenieSonar;
+			productName = GenieSonar;
+			productReference = 18E83D992CBED17A00197CD4 /* GenieSonar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E83DAE2CBED17C00197CD4 /* GenieSonarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E83DC62CBED17C00197CD4 /* Build configuration list for PBXNativeTarget "GenieSonarTests" */;
+			buildPhases = (
+				3D2C427C50F8C52E534E52CF /* [CP] Check Pods Manifest.lock */,
+				18E83DAB2CBED17C00197CD4 /* Sources */,
+				18E83DAC2CBED17C00197CD4 /* Frameworks */,
+				18E83DAD2CBED17C00197CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E83DB12CBED17C00197CD4 /* PBXTargetDependency */,
+			);
+			name = GenieSonarTests;
+			productName = GenieSonarTests;
+			productReference = 18E83DAF2CBED17C00197CD4 /* GenieSonarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E83DB82CBED17C00197CD4 /* GenieSonarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E83DC92CBED17C00197CD4 /* Build configuration list for PBXNativeTarget "GenieSonarUITests" */;
+			buildPhases = (
+				B40F16F6A7D05606D8A27C4D /* [CP] Check Pods Manifest.lock */,
+				18E83DB52CBED17C00197CD4 /* Sources */,
+				18E83DB62CBED17C00197CD4 /* Frameworks */,
+				18E83DB72CBED17C00197CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E83DBB2CBED17C00197CD4 /* PBXTargetDependency */,
+			);
+			name = GenieSonarUITests;
+			productName = GenieSonarUITests;
+			productReference = 18E83DB92CBED17C00197CD4 /* GenieSonarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E83D912CBED17A00197CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					18E83D982CBED17A00197CD4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					18E83DAE2CBED17C00197CD4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 18E83D982CBED17A00197CD4;
+					};
+					18E83DB82CBED17C00197CD4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 18E83D982CBED17A00197CD4;
+					};
+				};
+			};
+			buildConfigurationList = 18E83D942CBED17A00197CD4 /* Build configuration list for PBXProject "GenieSonar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E83D902CBED17A00197CD4;
+			productRefGroup = 18E83D9A2CBED17A00197CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E83D982CBED17A00197CD4 /* GenieSonar */,
+				18E83DAE2CBED17C00197CD4 /* GenieSonarTests */,
+				18E83DB82CBED17C00197CD4 /* GenieSonarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E83D972CBED17A00197CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E83DA92CBED17C00197CD4 /* LaunchScreen.storyboard in Resources */,
+				18E83DA62CBED17C00197CD4 /* Assets.xcassets in Resources */,
+				18FF4CBD2CBED28C000DEACA /* sonar-project.properties in Resources */,
+				18FF4CBF2CBED2E4000DEACA /* run-sonar-swift.sh in Resources */,
+				18E83DA42CBED17A00197CD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E83DAD2CBED17C00197CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E83DB72CBED17C00197CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D2C427C50F8C52E534E52CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenieSonarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D2FF4A4345FD687CBDD4BC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenieSonar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B40F16F6A7D05606D8A27C4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenieSonar-GenieSonarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E83D952CBED17A00197CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E83DA12CBED17A00197CD4 /* ViewController.swift in Sources */,
+				18E83D9D2CBED17A00197CD4 /* AppDelegate.swift in Sources */,
+				18E83D9F2CBED17A00197CD4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E83DAB2CBED17C00197CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E83DB42CBED17C00197CD4 /* GenieSonarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E83DB52CBED17C00197CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E83DBE2CBED17C00197CD4 /* GenieSonarUITests.swift in Sources */,
+				18E83DC02CBED17C00197CD4 /* GenieSonarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E83DB12CBED17C00197CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E83D982CBED17A00197CD4 /* GenieSonar */;
+			targetProxy = 18E83DB02CBED17C00197CD4 /* PBXContainerItemProxy */;
+		};
+		18E83DBB2CBED17C00197CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E83D982CBED17A00197CD4 /* GenieSonar */;
+			targetProxy = 18E83DBA2CBED17C00197CD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E83DA22CBED17A00197CD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E83DA32CBED17A00197CD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E83DA72CBED17C00197CD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E83DA82CBED17C00197CD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E83DC12CBED17C00197CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E83DC22CBED17C00197CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E83DC42CBED17C00197CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83A2315C86998E93A118ED3 /* Pods-GenieSonar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V733TRANUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GenieSonar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vsp.GenieSonar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E83DC52CBED17C00197CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD080D6B232E44CD7C534D0 /* Pods-GenieSonar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V733TRANUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GenieSonar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vsp.GenieSonar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18E83DC72CBED17C00197CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5167743984A91DB176DC6162 /* Pods-GenieSonarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V733TRANUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vsp.GenieSonarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenieSonar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GenieSonar";
+			};
+			name = Debug;
+		};
+		18E83DC82CBED17C00197CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5444C2B7AD448512B4DA64 /* Pods-GenieSonarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V733TRANUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vsp.GenieSonarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenieSonar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GenieSonar";
+			};
+			name = Release;
+		};
+		18E83DCA2CBED17C00197CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279422A1CB55B404AFFA4B0B /* Pods-GenieSonar-GenieSonarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V733TRANUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vsp.GenieSonarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GenieSonar;
+			};
+			name = Debug;
+		};
+		18E83DCB2CBED17C00197CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC8BC7888C88CD0B6DA8EF8 /* Pods-GenieSonar-GenieSonarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V733TRANUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vsp.GenieSonarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GenieSonar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E83D942CBED17A00197CD4 /* Build configuration list for PBXProject "GenieSonar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E83DC12CBED17C00197CD4 /* Debug */,
+				18E83DC22CBED17C00197CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E83DC32CBED17C00197CD4 /* Build configuration list for PBXNativeTarget "GenieSonar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E83DC42CBED17C00197CD4 /* Debug */,
+				18E83DC52CBED17C00197CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E83DC62CBED17C00197CD4 /* Build configuration list for PBXNativeTarget "GenieSonarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E83DC72CBED17C00197CD4 /* Debug */,
+				18E83DC82CBED17C00197CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E83DC92CBED17C00197CD4 /* Build configuration list for PBXNativeTarget "GenieSonarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E83DCA2CBED17C00197CD4 /* Debug */,
+				18E83DCB2CBED17C00197CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E83D912CBED17A00197CD4 /* Project object */;
+}
